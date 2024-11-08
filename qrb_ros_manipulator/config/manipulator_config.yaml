@@ -1,0 +1,6 @@
+/manipulator_controller:
+  ros__parameters:
+    manipulator_num: 1
+    arm_type_1: 0 #lebai_lm90
+    dev_id_1: 1
+    ip_1: 192.168.1.107

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>qrb_ros_manipulator</name>
+  <version>1.0.0</version>
+  <description>Manipulator controller for ROS2</description>
+
+  <license>BSD-3-Clause-Clear</license>
+  
+  <author email="quic_jionzhao@quicinc.com">JiongZhao</author>
+  <maintainer email="quic_jionzhao@quicinc.com">JiongZhao</maintainer>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <depend>qrb_ros_manipulator_msgs</depend>
+  <depend>qrb_manipulator_controller</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

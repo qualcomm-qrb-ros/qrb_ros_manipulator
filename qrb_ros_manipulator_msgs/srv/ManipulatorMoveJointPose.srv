@@ -1,0 +1,17 @@
+# Copyright (c) 2024 Qualcomm Innovation Center, Inc. All rights reserved.
+# SPDX-License-Identifier: BSD-3-Clause-Clear
+
+# Manipulator move with joint pose
+
+int32 LEBAI_LM3_CLAW_90 = 0
+
+float64 speed
+float64 acc
+float64 time
+float64 radius
+
+int32 manipulator_id
+float64[] joints_pose
+int32 joints_num
+---
+bool result
