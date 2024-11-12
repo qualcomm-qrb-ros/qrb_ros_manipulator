@@ -4,7 +4,7 @@ qrb_ros_manipulator is a package to provide ROS service to control manipulator.
 
 ## Overview
 
-QRB ROS manipulator provides different vendor robot ARM SDK to control hardware.
+QRB ROS manipulator provides different vendor robot ARM SDK to control robot ARM movement.
 
 qrb_manipulator_controller, which is a dynamic library, is base on this framework for helping developers to utilize this feature and provide unified API to control robot ARM.
 qrb_ros_manipulator, which is a ros package and provide ROS service to control robot ARM and get ARM status. It call qrb_manipulator_controller library to realize robot arm control.
