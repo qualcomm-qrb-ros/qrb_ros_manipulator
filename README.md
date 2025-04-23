@@ -21,7 +21,7 @@ Currently, we only support use QCLINUX to build
 
 3. Clone this repository under `<qirp_decompressed_workspace>/qirp-sdk/ros_ws`
      ```bash
-     git clone https://github.com/quic-qrb-ros/qrb_ros_manipulator.git
+     git clone https://github.com/qualcomm-qrb-ros/qrb_ros_manipulator.git
      git clone https://github.com/lebai-robotics/lebai-sdk.git
      ```
 4. Build this project
